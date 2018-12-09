@@ -14,7 +14,7 @@ import sys
 from six.moves import xrange
 import os.path
 import time
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import inference
 import scipy.io as scio
 
@@ -23,15 +23,18 @@ import scipy.io as scio
 #LEARNING_RATE_DECAY_FACTOR = 0.98
 
 FLAGS = None
+lossList = []
+trainsteps = []
+
 
 def main(_):
     Samples_placeholder = tf.placeholder(dtype=tf.float32,shape=[None,89],name='X_input')
     Labels_placeholder = tf.placeholder(dtype=tf.float32,shape=[None,5],name='Y_input')
-    
+
     global_step = tf.Variable(0,trainable=False)
-        
+
     logits = inference.inference(Samples_placeholder)
-    
+
     loss = inference.loss(logits,Labels_placeholder)
     
     train_op = inference.train(loss,global_step)    
@@ -73,13 +76,16 @@ def main(_):
             start_time = time.time()            
             loss_value,_=sess.run([loss,train_op],feed_dict={Samples_placeholder:samples,Labels_placeholder:labels})
             duration=time.time()-start_time
-            if (i+1) % 10 == 0:                
+            if (i+1) % 1000 == 0:
+                lossList.append(loss_value)
+                trainsteps.append(i+1)
                 print("Loss of training NN, step: %d, loss: %f, and time:%f" % (i+1,loss_value,duration))
             #if (i+1) % 100 == 0 :
-                eval_value = sess.run(evaluation, feed_dict={Samples_placeholder:train_samples,Labels_placeholder:train_labels})
+            #    eval_value = sess.run(evaluation, feed_dict={Samples_placeholder:train_samples,Labels_placeholder:train_labels})
                 
                 #print("Evaluation of test samples, step: %d, loss: %f." % (i+1,eval_value))
                 #summary_writer.add_summary(summary_str, i)
+
                 
             if i%1000 == 0 or (i+1) == FLAGS.max_steps:
                 eval_value = sess.run(evaluation, feed_dict={Samples_placeholder:samples,Labels_placeholder:labels})
@@ -91,6 +97,8 @@ def main(_):
         predict = sess.run(logits, feed_dict={Samples_placeholder:test_samples,Labels_placeholder:test_labels})        
         test_file = os.path.join(FLAGS.data_dir,'predict.mat' )
         scio.savemat(test_file,{'Predict':predict})
+        plt.plot(trainsteps, lossList, label='First Line')
+        plt.show()
 
     
     
