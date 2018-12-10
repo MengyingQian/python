@@ -2,13 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f45e14d-3a94-4ab9-b18d-14cdcaa35989" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/Data_o.mat" beforeDir="false" afterPath="$PROJECT_DIR$/data/Data_o.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/predict.mat" beforeDir="false" afterPath="$PROJECT_DIR$/data/predict.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/test_result.mat" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_result.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/evaluate(1).py" beforeDir="false" afterPath="$PROJECT_DIR$/evaluate(1).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1453885986.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1535358246.W5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1535360026.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1540184682.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1544338019.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1544346995.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1544347294.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1544347885.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1544348195.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1544351842.PC-20170701EWXY" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/events.out.tfevents.1544351959.PC-20170701EWXY" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/logfile/train.ckpt-99999.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/logfile/train.ckpt-99999.data-00000-of-00001" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logfile/train.ckpt-99999.index" beforeDir="false" afterPath="$PROJECT_DIR$/logfile/train.ckpt-99999.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile/train.ckpt-99999.meta" beforeDir="false" afterPath="$PROJECT_DIR$/logfile/train.ckpt-99999.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/events.out.tfevents.1535358246.W5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/train.ckpt-99999.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/train.ckpt-99999.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/train.ckpt-99999.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/prediction.py" beforeDir="false" afterPath="$PROJECT_DIR$/prediction.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prediction.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="prediction.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prediction.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            <state relative-caret-position="180">
+              <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
               <folding>
                 <element signature="e#80#118#0" expanded="true" />
               </folding>
@@ -35,8 +52,8 @@
       <file leaf-file-name="evaluate.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evaluate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1353">
-              <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="28" />
+            <state relative-caret-position="690">
+              <caret line="107" column="28" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="28" />
               <folding>
                 <element signature="e#48#86#0" expanded="true" />
               </folding>
@@ -44,11 +61,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evaluate(1).py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="evaluate(1).py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/evaluate(1).py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+            <state relative-caret-position="384">
+              <caret line="63" column="123" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="127" />
+              <folding>
+                <element signature="e#48#86#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,8 +76,8 @@
       <file leaf-file-name="inference.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inference.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="65" column="97" lean-forward="true" selection-start-line="65" selection-start-column="97" selection-end-line="65" selection-end-column="97" />
+            <state relative-caret-position="1037">
+              <caret line="68" column="20" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="20" />
               <folding>
                 <element signature="e#114#152#0" expanded="true" />
               </folding>
@@ -71,6 +91,10 @@
     <findStrings>
       <find>tf.reduce_mean</find>
       <find>plt</find>
+      <find>、、</find>
+      <find>inference</find>
+      <find>loss</find>
+      <find>train_op</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="129" />
     <option name="y" value="-16" />
     <option name="width" value="1400" />
@@ -106,11 +130,6 @@
             <path>
               <item name="model_o" type="b2602c69:ProjectViewProjectNode" />
               <item name="model_o" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="model_o" type="b2602c69:ProjectViewProjectNode" />
-              <item name="model_o" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.evaluate(1)">
+  <component name="RunManager" selected="Python.prediction">
     <configuration name="evaluate" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="model_o" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,8 +216,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.evaluate(1)" />
         <item itemvalue="Python.prediction" />
+        <item itemvalue="Python.evaluate(1)" />
         <item itemvalue="Python.evaluate" />
       </list>
     </recent_temporary>
@@ -218,16 +237,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32818532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32818532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947233" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -240,19 +258,19 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32818532" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32818532" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -262,20 +280,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/personality_vue/test_python/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../爬虫/weibo_xpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6953">
-          <caret line="425" column="13" selection-start-line="425" selection-start-column="13" selection-end-line="425" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prediction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -600,23 +604,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/checkpoint">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/checkpoint" />
+    <entry file="file://$PROJECT_DIR$/logfile/events.out.tfevents.1540184682.PC-20170701EWXY" />
     <entry file="file://$PROJECT_DIR$/inference.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="65" column="97" lean-forward="true" selection-start-line="65" selection-start-column="97" selection-end-line="65" selection-end-column="97" />
+        <state relative-caret-position="1037">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="10" selection-end-line="68" selection-end-column="20" />
           <folding>
             <element signature="e#114#152#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/logfile/checkpoint">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/evaluate(1).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="63" column="123" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="127" />
+          <folding>
+            <element signature="e#48#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/evaluate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1353">
-          <caret line="107" column="28" lean-forward="true" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="28" />
+        <state relative-caret-position="690">
+          <caret line="107" column="28" selection-start-line="107" selection-start-column="18" selection-end-line="107" selection-end-column="28" />
           <folding>
             <element signature="e#48#86#0" expanded="true" />
           </folding>
@@ -625,18 +641,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prediction.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="180">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
           <folding>
             <element signature="e#80#118#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/evaluate(1).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
         </state>
       </provider>
     </entry>
